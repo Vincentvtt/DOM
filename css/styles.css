@@ -1,0 +1,108 @@
+/* HTML Tags */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Generic Classes */
+
+.orange-background {
+    background-color: #ef8172;
+}
+
+.red-background {
+    background-color: #ff4c68;
+}
+
+.padded-container {
+    padding: 4% 15%;
+}
+
+/* Title CSS */
+
+.brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.title-container {
+    padding: 2% 15% 5%;
+}
+
+.title-img {
+    width: 20%;
+    transform: rotate(20deg);
+    padding: 3rem 1rem 1rem;
+    right: 20%;
+    position: absolute;
+}
+
+/* Features CSS */
+
+#features {
+    background-color: white;
+    position: relative;
+}
+
+.icon {
+    color: #ef8172;
+    font-size: 3rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials CSS */
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+}
+
+.press-icons {
+    margin: 1.5rem;
+    width: 15%;
+}
+
+@media (max-width: 990px){
+
+    #title {
+        text-align: center;
+    }
+    
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+        margin-left: 0;
+    }
+
+    .press-icons {
+        margin: 1.5rem;
+        width: 30%;
+    }
+}
