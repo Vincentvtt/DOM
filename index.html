@@ -5,7 +5,13 @@
         <title>My Website</title>
         <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body onload="alert('Hello');"">
+    <body onload="alert('Hello from inline');"">
         <h1>Hello</h1>
+        <script type="text/javascript">
+            alert("Hello from script");
+        </script>
+        <script src="index.js" charset="utf-8">
+            alert("Hello from external script");
+        </script>
     </body>
 </html>
